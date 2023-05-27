@@ -15,7 +15,6 @@ public class DoWhile {
             System.out.println("Enter two numbers so we can add them");
             System.out.println("Enter the first number: ");
             double firstNum = scanner.nextDouble();
-
             System.out.println("Enter the second number: ");
             double secondNum = scanner.nextDouble();
 
