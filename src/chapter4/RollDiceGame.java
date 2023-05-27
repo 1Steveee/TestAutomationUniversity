@@ -11,12 +11,7 @@ public class RollDiceGame {
         int currentSpace = 0;
         int lastSpace = 20;
 
-
-
-
-
         do {
-
             Random random = new Random();
             int die = random.nextInt(6) + 1;
             currentRoll++;
