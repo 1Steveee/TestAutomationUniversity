@@ -1,6 +1,8 @@
+package chapter3;
+
 import java.util.Scanner;
 
-public class Main {
+public class Grade {
     public static void main(String[] args) {
         System.out.println("Enter your letter grade: ");
 
