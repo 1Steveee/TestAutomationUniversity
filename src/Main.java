@@ -8,6 +8,8 @@ public class Main {
         String grade = scanner.next();
         String message;
 
+
+        //if you forget to include a break, it will continue to the next code block.
         switch (grade) {
             case "A":
                 message = "Amazing Student";
@@ -30,6 +32,6 @@ public class Main {
         }
 
         System.out.println(message);
-        
+
     }
 }
