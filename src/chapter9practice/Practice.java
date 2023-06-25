@@ -13,5 +13,13 @@ public class Practice {
 //        Does not work since Car is not of type Van
    //     Van vanTwo = new Car();
 
+
+        Person person = new Person();
+        person.setAge(20);
+        person.printAgeInTwentyYears();
+
+        Son son = new Son();
+        son.setAge(15);
+        son.printAgeInTwentyYears();
     }
 }
