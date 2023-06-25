@@ -6,6 +6,20 @@ public class Car {
     private String make;
     private String model;
     private int yearMade;
+
+    public Car(String color, String make, String model, int yearMade) {
+        this.color = color;
+        this.make = make;
+        this.model = model;
+        this.yearMade = yearMade;
+    }
+
+    public Car(String make, String model) {
+        this.make = make;
+        this.model = model;
+    }
+
+
     public String getColor() {
         return color;
     }
