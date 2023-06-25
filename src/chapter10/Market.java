@@ -15,6 +15,7 @@ public class Market {
 
         Fruit greenApple = new Apple(90);
         ((Apple) greenApple).eatApple();
+
     }
 
     public static void throwAwayFruit(Fruit fruit) {
